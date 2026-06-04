@@ -1,6 +1,6 @@
 (function () {
-  if (location.pathname.indexOf("/libri-new/ng/core-ng") === 0) {
-    location.replace("/libri-new/");
+  if (location.pathname.indexOf("/libri-new/ng/core-ng") === 0 || location.pathname.indexOf("/ng/core-ng") === 0) {
+    location.replace("/");
     return;
   }
 
