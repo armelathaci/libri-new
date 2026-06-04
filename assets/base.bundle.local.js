@@ -1,4 +1,9 @@
 (function () {
+  if (location.pathname.indexOf("/libri-new/ng/core-ng") === 0) {
+    location.replace("/libri-new/");
+    return;
+  }
+
   const content = document.getElementById("content");
   if (content) {
     content.classList.remove("opacity-0");
